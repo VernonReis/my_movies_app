@@ -1,0 +1,13 @@
+<header>
+    <h1 id="headerH1">Movies Watchlist</h1>
+</header>
+
+<section class="signup">
+    <div class="container">
+        <% if logged_in %>
+            <a href="/users/">Sign Up!</a>
+        <% else %>
+            <a href="/users/new">Sign Up!</a>
+        <% end %>
+    </div>
+</section>
