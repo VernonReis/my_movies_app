@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_01_12_153918) do
+ActiveRecord::Schema.define(version: 2018_01_14_001216) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -41,6 +41,13 @@ ActiveRecord::Schema.define(version: 2018_01_12_153918) do
     t.datetime "updated_at", null: false
     t.index ["actor_id"], name: "index_roles_on_actor_id"
     t.index ["movie_id"], name: "index_roles_on_movie_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "password_digest"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   add_foreign_key "roles", "actors"
