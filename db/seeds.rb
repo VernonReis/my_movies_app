@@ -12,6 +12,7 @@ Movie.create(
   rating: 'R',
   released: '7/20/1988',
   runtime: 132,
+  img_url: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMzNmY2IwYzAtNDQ1NC00MmI4LThkOTgtZmVhYmExOTVhMWRkXkEyXkFqcGdeQXVyMTk5NDA3Nw@@._V1_SX300.jpg',
 )
 
 Movie.create(
@@ -20,6 +21,7 @@ Movie.create(
   rating: 'R',
   released: '10/24/1988',
   runtime: 132,
+  img_url: 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg',
 )
 
 Movie.create(
@@ -28,4 +30,5 @@ Movie.create(
   rating: 'PG',
   released: '12/15/1995',
   runtime: 104,
+  img_url: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZTk2ZmUwYmEtNTcwZS00YmMyLWFkYjMtNTRmZDA3YWExMjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg',
 )
