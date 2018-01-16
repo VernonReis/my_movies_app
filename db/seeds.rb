@@ -32,3 +32,5 @@ Movie.create(
   runtime: 104,
   img_url: 'https://images-na.ssl-images-amazon.com/images/M/MV5BZTk2ZmUwYmEtNTcwZS00YmMyLWFkYjMtNTRmZDA3YWExMjc2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg',
 )
+
+User.create(email: 'user@example.com', nickname: 'UOne', name: 'User One', password: "monkey67")
