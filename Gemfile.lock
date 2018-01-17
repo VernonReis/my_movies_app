@@ -149,7 +149,6 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   byebug
-  devise
   devise_token_auth
   jwt
   omniauth
